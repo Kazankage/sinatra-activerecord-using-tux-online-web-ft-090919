@@ -10,4 +10,8 @@ user.email = "beth@beth.com"
 user.fav_icecream = "rocky road"
 user.save
 
+user = User.first
+user.name = "Trisha Yearwood"
+user.save
+
 end
