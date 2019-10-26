@@ -16,4 +16,9 @@ user.save
 
 user = User.first
 user.delete
+
+user = User.find_by_id(2)
+user = User.find_by(:name => "Beth")
+user = User.first
+user = User.last
 end
