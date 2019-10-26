@@ -14,4 +14,6 @@ user = User.first
 user.name = "Trisha Yearwood"
 user.save
 
+user = User.first
+user.delete
 end
